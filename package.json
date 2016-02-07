@@ -1,6 +1,6 @@
 {
   "name": "@glenjamin/inspect-x",
-  "version": "1.0.0-pre",
+  "version": "1.0.0",
   "description": "An implementation of node's ES6 inspect module. (ES5 compat fork)",
   "homepage": "https://github.com/glenjamin/inspect-x",
   "author": {
