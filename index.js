@@ -5,8 +5,8 @@
  * <img src="https://travis-ci.org/glenjamin/inspect-x.svg?branch=fork"
  * alt="Travis status" height="18">
  * </a>
- * <a href="https://badge.fury.io/js/@glenjamin/inspect-x" title="npm version">
- * <img src="https://badge.fury.io/js/@glenjamin/inspect-x.svg"
+ * <a href="https://badge.fury.io/js/@glenjamin%2Finspect-x" title="npm version">
+ * <img src="https://badge.fury.io/js/@glenjamin%2Finspect-x.svg"
  * alt="npm version" height="18">
  * </a>
  *
