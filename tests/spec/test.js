@@ -27,7 +27,7 @@
       JSON = {};
     }
     require('json3').runInContext(null, JSON);
-    require('es6-shim');
+    if (process.env.ES6_SHIM) require('es6-shim');
     inspect = require('../../index.js');
     // Test against `master`
     //inspect = require('util').inspect;

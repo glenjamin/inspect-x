@@ -1,26 +1,21 @@
 /**
  * @file
- * <a href="https://travis-ci.org/Xotic750/inspect-x"
+ * <a href="https://travis-ci.org/glenjamin/inspect-x"
  * title="Travis status">
- * <img src="https://travis-ci.org/Xotic750/inspect-x.svg?branch=master"
+ * <img src="https://travis-ci.org/glenjamin/inspect-x.svg?branch=fork"
  * alt="Travis status" height="18">
  * </a>
- * <a href="https://david-dm.org/Xotic750/inspect-x"
- * title="Dependency status">
- * <img src="https://david-dm.org/Xotic750/inspect-x.svg"
- * alt="Dependency status" height="18"/>
- * </a>
- * <a href="https://david-dm.org/Xotic750/inspect-x#info=devDependencies"
- * title="devDependency status">
- * <img src="https://david-dm.org/Xotic750/inspect-x/dev-status.svg"
- * alt="devDependency status" height="18"/>
- * </a>
- * <a href="https://badge.fury.io/js/inspect-x" title="npm version">
- * <img src="https://badge.fury.io/js/inspect-x.svg"
+ * <a href="https://badge.fury.io/js/@glenjamin/inspect-x" title="npm version">
+ * <img src="https://badge.fury.io/js/@glenjamin/inspect-x.svg"
  * alt="npm version" height="18">
  * </a>
  *
  * An implementation of node's ES6 inspect module.
+ *
+ * > This is a friendly fork which adds ES5 support without requiring ES6 shims.
+ * > If you do not require ES5 support, you should use
+ * > <a href="https://github.com/Xotic750/inspect-x">the original</a>.
+ *
  * Return a string representation of object, which is useful for debugging.
  * An optional options object may be passed that alters certain aspects of the
  * fmtted string:
@@ -93,7 +88,7 @@
  * behave as closely as possible to ECMAScript 6 (Harmony).
  *
  * @example
- * var util = require('inspect-x');
+ * var util = require('@glenjamin/inspect-x5');
  *
  * var obj = { name: 'nate' };
  * obj.inspect = function(depth) {
@@ -110,12 +105,12 @@
  *
  * inspect(obj);
  *   // "{ bar: 'baz' }"
- * @version 1.0.15
+ * @version 1.0.0
  * @author Xotic750 <Xotic750@gmail.com>
  * @copyright  Xotic750
  * @license {@link <https://opensource.org/licenses/MIT> MIT}
  * @see https://nodejs.org/api/util.html#util_util_inspect_object_options
- * @module inspect-x
+ * @module @glenjamin/inspect-x
  */
 
 /*jslint maxlen:80, es6:true, this:true, white:true */

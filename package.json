@@ -1,8 +1,8 @@
 {
-  "name": "inspect-x",
-  "version": "1.0.15",
-  "description": "An implementation of node's ES6 inspect module.",
-  "homepage": "https://github.com/Xotic750/inspect-x",
+  "name": "@glenjamin/inspect-x",
+  "version": "1.0.0-pre",
+  "description": "An implementation of node's ES6 inspect module. (ES5 compat fork)",
+  "homepage": "https://github.com/glenjamin/inspect-x",
   "author": {
     "name": "Graham Fairweather",
     "email": "xotic750@gmail.com"
@@ -23,10 +23,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Xotic750/inspect-x.git"
+    "url": "https://github.com/glenjamin/inspect-x.git"
   },
   "bugs": {
-    "url": "https://github.com/Xotic750/inspect-x/issues"
+    "url": "https://github.com/glenjamin/inspect-x/issues"
   },
   "dependencies": {
     "is-function-x": "^1.0.4",
